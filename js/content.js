@@ -19,7 +19,7 @@ const ETSY = {
 
 const CONTENT = {
   meta: {
-    pageTitle: "ChatGPTで作る 塗り絵しおり 海外販売スタートガイド｜MION AI GUIDE",
+    pageTitle: "みおん式AI副業ノート 塗り絵しおり編｜ChatGPTで作る塗り絵しおり海外販売スタートガイド",
     description: "絵が描けなくても大丈夫。ChatGPTで塗り絵しおりを作り、印刷用PDFと英語の商品情報を準備して、Etsyに出品するまでを3ステップで解説。コピペで使えるプロンプトつき。",
     siteUrl: "https://mion-ai-mama.github.io/chatgpt-coloring-bookmark-tokuten/",
   },
@@ -28,16 +28,16 @@ const CONTENT = {
   lineUrl: "https://sub.aione.co.jp/line/open/ErxG3f10mmcK?mtid=8LTecV7UlNz5",
 
   hero: {
-    brand: "MION AI GUIDE",
+    brand: "みおん式AI副業ノート ｜ 塗り絵しおり編",
     titleLines: ["ChatGPTで作る", "塗り絵しおり", "海外販売スタートガイド"],
     subtitle: "絵が描けなくても大丈夫。<br>作り方からEtsyへの出品まで、<br>3ステップでわかる！",
     lead: [
       "花柄・ステンドグラス風・マンダラ模様。好きなデザインを選んで、ChatGPTで商品作りに挑戦！",
     ],
     image: {
-      src: "assets/images/hero-op.jpg",
-      alt: "塗り絵しおりの完成見本。マンダラ、ステンドグラス風、花柄の3種類が、色を塗った例と塗る前の線画で並んでいる",
-      ratio: "4 / 3",
+      src: "assets/images/banner-1x1.jpg",
+      alt: "みおん式AI副業ノート 塗り絵しおり編。ChatGPTで作る海外販売スタートガイド。右上にみおんさん、下に花柄・ステンドグラス風・マンダラの塗り絵しおりの完成見本が並んでいる",
+      ratio: "1 / 1",
     },
     buttonText: "さっそく読む",
     buttonTarget: "intro",
@@ -63,10 +63,10 @@ const CONTENT = {
 
   intro: {
     id: "intro",
-    heading: "こんな塗り絵しおり、<br>自分で作れるって知ってた？",
+    heading: "AIで副業、よく聞くけど<br>何も始められていない人へ",
     paragraphs: [
-      "海外のハンドメイドマーケット「Etsy」では、印刷して楽しめる塗り絵しおりが、デジタル商品として出品されています。今回はChatGPTを使って、自分だけの塗り絵しおりを作る方法をご紹介します。",
-      "デジタル商品だから、購入のたびに梱包や発送をする必要はありません。空いた時間に少しずつ商品を増やしていけるのも魅力です。",
+      "私のおすすめは、ChatGPTで作る「塗り絵しおり」の海外販売です。海外のハンドメイドマーケット「Etsy」では、印刷して楽しめる塗り絵しおりが、デジタル商品として出品されています。",
+      "デジタル商品だから、面倒な梱包も発送もいりません。少しずつ商品を増やしていけるのも魅力。忙しいママには、こういう働き方っていいと思いませんか？",
     ],
     note: "※販売にはEtsyの規約への適合、ショップ開設、手数料などが必要です。売上や販売数を保証するものではありません。",
   },

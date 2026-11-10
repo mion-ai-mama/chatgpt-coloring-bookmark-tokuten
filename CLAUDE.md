@@ -1,4 +1,4 @@
-# ChatGPTで作る 塗り絵しおり 海外販売スタートガイド（特典ページ）
+# みおん式AI副業ノート 塗り絵しおり編（特典ページ）
 
 > 設計の共通原則は `~/.claude/CLAUDE.md` に従う。要件は `docs/requirements.md`。
 

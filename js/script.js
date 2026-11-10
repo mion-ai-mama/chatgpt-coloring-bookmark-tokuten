@@ -52,11 +52,10 @@
     return `
     <section class="hero" aria-labelledby="hero-title">
       <div class="container">
-        <p class="hero__brand">${h.brand}</p>
-        <h1 class="hero__title" id="hero-title">${h.titleLines.map((l) => `<span>${l}</span>`).join("")}</h1>
+        ${figure(h.image.src, h.image.alt, h.image.ratio, h.image.caption, h.image.placeholder).replace('class="figure"', 'class="figure figure--hero"')}
+        <h1 class="visually-hidden" id="hero-title">${h.brand}　${h.titleLines.join(" ")}</h1>
         <p class="hero__sub">${h.subtitle}</p>
         <div class="hero__lead">${paras(h.lead)}</div>
-        ${figure(h.image.src, h.image.alt, h.image.ratio, h.image.caption, h.image.placeholder).replace('class="figure"', 'class="figure figure--hero"')}
         <a class="btn btn--ghost" href="#${esc(h.buttonTarget)}" data-scroll>${h.buttonText}</a>
       </div>
     </section>`;
