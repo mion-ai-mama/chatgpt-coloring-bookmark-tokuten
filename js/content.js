@@ -121,8 +121,8 @@ const CONTENT = {
           type: "gallery",
           heading: "3つのジャンルの見本",
           items: [
-            { label: "A｜花柄", alt: "バラや野花、葉をあしらった花柄の塗り絵しおりの完成見本", ratio: "3 / 2", img: "" },
-            { label: "B｜ステンドグラス風", alt: "花や蝶を黒い輪郭線で区切ったステンドグラス風の塗り絵しおりの完成見本", ratio: "3 / 2", img: "" },
+            { label: "A｜花柄（左の1本は色を塗った例）", alt: "バラや野花、葉をあしらった花柄の塗り絵しおり4本。左の1本は色を塗った例、右の3本は塗る前の黒い線画", ratio: "3 / 2", img: "assets/images/sample-floral.jpg" },
+            { label: "B｜ステンドグラス風（左の1本は色を塗った例）", alt: "花や蝶を黒い輪郭線で区切ったステンドグラス風の塗り絵しおり4本。左の1本は色を塗った例、右の3本は塗る前の黒い線画", ratio: "3 / 2", img: "assets/images/sample-stainedglass.jpg" },
             { label: "C｜マンダラ系（左の1本は色を塗った例）", alt: "円形の対称模様のマンダラ系の塗り絵しおり4本。左の1本は色を塗った例、右の3本は塗る前の黒い線画", ratio: "3 / 2", img: "assets/images/sample-mandala.jpg" },
           ],
         },
