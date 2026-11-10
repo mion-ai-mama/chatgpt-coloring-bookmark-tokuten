@@ -374,3 +374,4 @@ a:focus-visible, button:focus-visible {
 
 .rules--faq .rule summary::before { content: "Q"; }
 .rules--faq { counter-reset: none; }
+.hero__title span:last-child { font-size: .8em; white-space: nowrap; }
