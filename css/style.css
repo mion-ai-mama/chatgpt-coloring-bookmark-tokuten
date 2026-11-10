@@ -360,7 +360,7 @@ a:focus-visible, button:focus-visible {
 }
 .placeholder__tag { font-weight: 700; color: var(--c-taupe); }
 .gallery { display: grid; gap: 20px; }
-.gallery .figure { max-width: 360px; margin: 0 auto; width: 100%; }
+.gallery .figure { max-width: 520px; margin: 0 auto; width: 100%; }
 .gallery .figure figcaption { font-weight: 700; color: var(--c-taupe); }
 
 .checklist { list-style: none; margin: 0 0 20px; padding: 0; }
