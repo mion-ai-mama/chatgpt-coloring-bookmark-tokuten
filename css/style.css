@@ -284,6 +284,10 @@ a:focus-visible, button:focus-visible {
 .figure figcaption { margin-top: 8px; font-size: 13.5px; color: var(--c-muted); text-align: center; }
 .figure--hero { max-width: 560px; margin: 0 auto 28px; }
 .step__body > .figure { max-width: 360px; margin-left: auto; margin-right: auto; }
+.step__body > .figure--wide { max-width: 640px; }
+@media (max-width: 639px) {
+  .step__body > .figure--wide { max-width: none; margin-left: -12px; margin-right: -12px; }
+}
 
 /* 写真 → ChatGPT → ステッカー */
 .vis { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 4px; justify-items: center; }

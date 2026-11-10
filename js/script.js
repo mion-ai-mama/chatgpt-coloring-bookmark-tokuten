@@ -163,7 +163,7 @@
       case "flow":
         return flowBlock(b);
       case "image":
-        return figure(b.img, b.alt, b.ratio, b.caption, b.placeholder);
+        return figure(b.img, b.alt, b.ratio, b.caption, b.placeholder).replace('class="figure"', b.wide ? 'class="figure figure--wide"' : 'class="figure"');
       case "gallery":
         return `<div><h3 class="sub-heading">${b.heading}</h3><div class="gallery">${b.items.map((g) => figure(g.img, g.alt, g.ratio, g.label)).join("")}</div></div>`;
       case "checklist":
