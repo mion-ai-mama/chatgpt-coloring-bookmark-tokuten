@@ -13,8 +13,7 @@ Instagramリール特典。静的サイト（HTML/CSS/JS・ビルドなし）。
 
 | 場所 | content.js | 推奨 |
 |---|---|---|
-| OP画像 | `hero.image.src` | 縦長3:4（`ratio`で変更可） |
-| 3ジャンルの見本 | `cards[0]` の `gallery` の各 `img` | 横長4:3 |
+| 3ジャンルの見本 | `cards[0]` の `gallery` の各 `img` | 横長3:2 |
 
 画像は `assets/images/` に置きます。実在しない画面や作例は使わないでください。
 

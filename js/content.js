@@ -35,10 +35,9 @@ const CONTENT = {
       "花柄・ステンドグラス風・マンダラ模様。好きなデザインを選んで、ChatGPTで商品作りに挑戦！",
     ],
     image: {
-      src: "",
-      alt: "花柄、ステンドグラス風、マンダラ模様の塗り絵しおりの完成見本",
-      ratio: "3 / 4",
-      placeholder: "OP画像（花柄・ステンドグラス風・マンダラの完成見本が伝わる構図）",
+      src: "assets/images/hero-op.jpg",
+      alt: "塗り絵しおりの完成見本。マンダラ、ステンドグラス風、花柄の3種類が、色を塗った例と塗る前の線画で並んでいる",
+      ratio: "4 / 3",
     },
     buttonText: "さっそく読む",
     buttonTarget: "intro",
