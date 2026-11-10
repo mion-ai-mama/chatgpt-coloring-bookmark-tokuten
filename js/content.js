@@ -259,9 +259,6 @@ const CONTENT = {
             "PDFを実際のサイズ（100％）で印刷して確認する<br><small>印刷のしかたは、下の「印刷のときの注意」を見てください。</small>",
           ],
         },
-        { type: "image", img: "", alt: "Canvaのカスタムサイズで、単位をcmにして幅29.7・高さ21と入力する画面", ratio: "4 / 3", placeholder: "カスタムサイズ（cm）を入力する画面", caption: "カスタムサイズ（cm）で A4横 を作る" },
-        { type: "image", img: "", alt: "Canvaのページいっぱいに、しおり4本の画像を広げた画面", ratio: "4 / 3", placeholder: "画像をページに広げた画面", caption: "画像をページの横幅いっぱいに広げる" },
-        { type: "image", img: "", alt: "CanvaでPDF（印刷）としてダウンロードする画面", ratio: "4 / 3", placeholder: "PDFダウンロード画面", caption: "PDF（印刷）でダウンロードする" },
         {
           type: "point",
           label: "サイズを合わせる方法（4本まとめて）",

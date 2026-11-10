@@ -21,4 +21,3 @@
 
 - [ ] OP画像（`hero.image.src`）
 - [ ] 花柄・ステンドグラス風・マンダラの完成見本（`step1` の gallery 3枚）
-- [ ] Canva操作画面3枚（`step2` の image ブロック）

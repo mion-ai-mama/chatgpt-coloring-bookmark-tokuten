@@ -15,7 +15,6 @@ Instagramリール特典。静的サイト（HTML/CSS/JS・ビルドなし）。
 |---|---|---|
 | OP画像 | `hero.image.src` | 縦長3:4（`ratio`で変更可） |
 | 3ジャンルの見本 | `cards[0]` の `gallery` の各 `img` | 横長4:3 |
-| Canva操作画面3枚 | `cards[1]` の `image` ブロックの `img` | 実際の画面のキャプチャ |
 
 画像は `assets/images/` に置きます。実在しない画面や作例は使わないでください。
 
