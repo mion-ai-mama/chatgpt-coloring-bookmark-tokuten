@@ -42,7 +42,7 @@ const CONTENT = {
     // バナー直下の解説動画（ChatGPTで画像を作るところまで・Mac画面・約77秒）
     video: {
       heading: "解説動画",
-      src: "assets/video/tutorial.mp4",
+      src: "assets/video/tutorial.mp4?v=2",
       poster: "assets/video/tutorial-poster.jpg",
       label: "ChatGPTで塗り絵しおりを作る手順の解説動画。特典ページでプロンプトをコピーし、ChatGPTに貼り付けて、画像ができるまでを見せています。",
     },
