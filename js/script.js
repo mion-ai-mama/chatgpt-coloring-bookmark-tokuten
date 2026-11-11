@@ -48,11 +48,23 @@
       .map((t, i) => `<li><label><input type="checkbox" data-check="coloring-bookmark:${id}:${i}"><span>${t}</span></label></li>`)
       .join("")}</ul>`;
 
+  function videoBlock(v) {
+    return `
+        <div class="hero__video">
+          <h2 class="sub-heading">${v.heading}</h2>
+          <video controls playsinline preload="metadata" poster="${esc(v.poster)}" aria-label="${esc(v.label)}">
+            <source src="${esc(v.src)}" type="video/mp4">
+            <p>お使いのブラウザでは動画を再生できません。</p>
+          </video>
+        </div>`;
+  }
+
   function hero(h) {
     return `
     <section class="hero" aria-labelledby="hero-title">
       <div class="container">
         ${figure(h.image.src, h.image.alt, h.image.ratio, h.image.caption, h.image.placeholder).replace('class="figure"', 'class="figure figure--hero"')}
+        ${h.video ? videoBlock(h.video) : ""}
         <h1 class="visually-hidden" id="hero-title">${h.brand}　${h.titleLines.join(" ")}</h1>
         <p class="hero__sub">${h.subtitle}</p>
         <div class="hero__lead">${paras(h.lead)}</div>

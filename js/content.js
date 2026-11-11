@@ -39,6 +39,13 @@ const CONTENT = {
       alt: "みおん式AI副業ノート 塗り絵しおり編。ChatGPTで作る海外販売スタートガイド。右上にみおんさん、下に花柄・ステンドグラス風・マンダラの塗り絵しおりの完成見本が並んでいる",
       ratio: "1 / 1",
     },
+    // バナー直下の解説動画（ChatGPTで画像を作るところまで・Mac画面・約77秒）
+    video: {
+      heading: "解説動画",
+      src: "assets/video/tutorial.mp4",
+      poster: "assets/video/tutorial-poster.jpg",
+      label: "ChatGPTで塗り絵しおりを作る手順の解説動画。特典ページでプロンプトをコピーし、ChatGPTに貼り付けて、画像ができるまでを見せています。",
+    },
     buttonText: "さっそく読む",
     buttonTarget: "intro",
   },
